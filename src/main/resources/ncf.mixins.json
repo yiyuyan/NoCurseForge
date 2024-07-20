@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ncf.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ncf.refmap.json",
+  "mixins": [
+    "BindingEnchantmentMixin",
+    "VanishingEnchantmentMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
